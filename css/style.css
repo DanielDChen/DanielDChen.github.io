@@ -47,11 +47,11 @@ a:hover {
 /* Navbar CSS */
 .navbar-nav .nav-item {
     display: inline-block;
-    float: none;
     vertical-align: top;
 }
 .navbar .collapse {
     text-align: center;
+    float: right;
 }
 
 .navbar {
@@ -81,24 +81,13 @@ a:hover {
     border-color: #0275d8;
 }
 
-#profile {
+#intro {
+  padding-top: 40vh;
+  padding-bottom: 40vh;
+  text-align: center;
 }
-
-#experience {
-    background-color: #0275d8;
-    color: #FFF;
-}
-
-#portfolio {
-}
-
-#portfolio2 {
-    padding-top: 50px;
-}
-
-#resume {
-    background-color: #0275d8;
-    color: #FFF;
+#jumbotron {
+  height: 100vh;
 }
 
 #contact {
