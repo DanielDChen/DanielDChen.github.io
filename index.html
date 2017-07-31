@@ -25,7 +25,7 @@
 
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
     <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -41,9 +41,9 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li class="dropdown">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item">
               <a href="#portfolio" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="#">Action</a></li>
@@ -55,7 +55,7 @@
                 <li><a href="#">One more separated link</a></li>
               </ul>
             </li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -86,6 +86,18 @@
         </div>
     </section>
 
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <header>
+                <h1 class="display-3">Contact</h1>
+            </header>
+            <hr class="m-y-2">
+            <br>
+            <div class="row introline">
+                <h3>Send me an <a href="mailto:chen_daniel@college.harvard.edu">email</a> or see my projects on <a href="https://github.com/DanielDChen/" target="_blank">GitHub</a></h3>
+        </div>
+    </section>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
