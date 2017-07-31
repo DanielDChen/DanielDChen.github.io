@@ -1,0 +1,304 @@
+/* Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+
+/* Tag-specific CSS */
+
+body {
+    background: #BBB !important;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+}
+
+section {
+    padding: 6em 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #FFF;
+}
+
+hr {
+    background-color: #FFF;
+}
+
+a:link, a:visited {
+    outline: 0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* End of Tag-specific CSS */
+
+
+
+/* Navbar CSS */
+.navbar-nav .nav-item {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+.navbar .collapse {
+    text-align: center;
+}
+
+.navbar {
+    height: 54px;
+}
+.nav-link.active {
+    color: #0275d8 !important;
+}
+
+.nav-item a:hover {
+    color: #55a1fc !important;
+}
+
+/* End of Navbar CSS */
+
+
+
+/* Section-specific CSS */
+
+#slideshow {
+    height: 100vh !important;
+}
+
+.input-group-addon:first-child {
+    background-color: #0275d8;
+    color: #FFF;
+    border-color: #0275d8;
+}
+
+#profile {
+}
+
+#experience {
+    background-color: #0275d8;
+    color: #FFF;
+}
+
+#portfolio {
+}
+
+#portfolio2 {
+    padding-top: 50px;
+}
+
+#resume {
+    background-color: #0275d8;
+    color: #FFF;
+}
+
+#contact {
+    padding-bottom: 10em;
+}
+
+#footer {
+    height: 7em;
+    background-color: #EEE;
+    padding: 3em 0;
+    font-size: 12px;
+}
+
+/* End of Section-specific CSS */
+
+
+
+.title {
+    color: #FFF;
+    padding-top: 20vh;
+}
+
+.introline {
+    margin-bottom: 5em;
+    padding: 0 10px;
+}
+
+.blacktext {
+    color: #000;
+    margin-bottom: 5em;
+}
+
+.contactinfo {
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.page-header {
+    margin-top: 0;
+
+}
+
+.panel-body {
+    padding-top: 0;
+}
+
+.featuredImg {
+    margin-bottom: 15px;
+}
+
+.bg-faded {
+    background-color: rgba(250,250,250,0.94);
+}
+
+.description {
+    padding-top: 5em;
+}
+
+.description2 {
+    padding-top: 8em;
+}
+
+.description3 {
+    padding-top: 2em;
+}
+
+.social-icons {
+    padding-top: 10px;
+    margin-bottom: 35px;
+}
+
+.social-icons .btn.btn-clear {
+    border: 1px solid #fff;
+}
+
+.btn.btn-clear {
+    border: 1px solid #fff;
+    color: #fff;
+    background: none;
+    background-color: none;
+    font-weight: bold;
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+
+.btn-round {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    padding: 0;
+}
+
+.btn-round i {
+    font-size: 20px;
+    top: 15px;
+    position: relative;
+}
+
+.me {
+    max-height: 400px;
+}
+
+#me {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.resumelink {
+    color: #FFF;
+}
+
+.resumelink:hover {
+    color: #DDD;
+}
+
+.ss-wrapper {
+    position: relative;
+    margin-top: 20px;
+    border: 3px solid #dcdcde;
+    padding-top: 20px;
+    background: #dcdcde;
+    -webkit-border-top-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.ss-wrapper .browser-gui {
+    position: absolute;
+    top: 0;
+    left: 4px;
+}
+
+.ss-wrapper .browser-gui span.browser-dot {
+    display: block;
+    float: left;
+    margin: 5px 3px;
+    width: 8px;
+    height: 8px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #626262;
+}
+
+#contact-name {
+    padding-left: 22px;
+    padding-right: 21px;
+}
+
+#contact-email {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+/* Size-specific CSS */
+
+@media (max-width: 992px) {
+    #experience {
+        min-height: 150vh;
+    }
+}
+
+@media (max-width: 1199px) {
+    .description {
+        padding-top: 2em;
+    }
+    .description2 {
+        padding-top: 3em;
+    }
+    .description3 {
+        padding-top: 0em;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-9 {
+        padding: 0 5em;
+    }
+}
+
+@media (max-width: 543px) {
+    .navbar {
+        height: inherit;
+    }
+    .navbar-nav .nav-item {
+        float: none;
+        text-align: center;
+        display: block;
+    }
+    .navbar-nav .nav-item+.nav-item {
+        margin-left: 0;
+    }
+}
+
+/* End of Size-specific CSS */
