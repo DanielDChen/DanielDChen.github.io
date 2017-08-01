@@ -41,18 +41,14 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
             <li class="nav-item">
-              <a href="#portfolio" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Portfolio <span class="caret"></span></a>
+              <a href="#portfolio" class="nav-link">Portfolio</a>
               <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
               </ul>
             </li>
             <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -62,12 +58,11 @@
     </nav>
 
     <!-- Jumbotron -->
-    <section>
+    <section id="home">
       <div class="jumbotron">
-      <div class="container">
+      <div class="container" id="landing">
         <h1>Daniel Chen</h1>
         <p>A sophomore studying Computer Science at Harvard University</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
       </div>
     </div>
   </section>
@@ -80,8 +75,22 @@
             </header>
             <hr class="m-y-2">
             <br>
-            <div class="row introline">
+            <div class="row intro">
                 <h3>I'm a sophomore at Harvard College studying Computer Science.</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+        <div class="container">
+            <header>
+                <h1>Portfolio</h1>
+            </header>
+            <hr class="m-y-2">
+            <br>
+            <div class="row intro">
+                <h3>View some of my past work!</h3>
             </div>
         </div>
     </section>
@@ -94,7 +103,7 @@
             </header>
             <hr class="m-y-2">
             <br>
-            <div class="row introline">
+            <div class="row intro">
                 <h3>Send me an <a href="mailto:chen_daniel@college.harvard.edu">email</a> or see my projects on <a href="https://github.com/DanielDChen/" target="_blank">GitHub</a></h3>
         </div>
     </section>
