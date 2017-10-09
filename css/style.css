@@ -217,14 +217,7 @@ a:hover {
   }
 }
 #contact {
-    padding-bottom: 10em;
-}
-
-#footer {
-    height: 7em;
-    background-color: #EEE;
-    padding: 3em 0;
-    font-size: 12px;
+    padding-bottom: 4em;
 }
 
 /* End of Section-specific CSS */
@@ -237,7 +230,7 @@ a:hover {
 }
 
 .intro {
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     padding: 0 10px;
 }
 
@@ -319,13 +312,7 @@ a:hover {
     position: relative;
 }
 
-.me {
-    max-height: 400px;
-}
-
 #me {
-    height: 100%;
-    width: 100%;
     object-fit: cover;
 }
 
@@ -375,6 +362,9 @@ a:hover {
     padding-right: 24px;
 }
 
+#footer {
+  padding-bottom: 2em;
+}
 
 /* Size-specific CSS */
 
